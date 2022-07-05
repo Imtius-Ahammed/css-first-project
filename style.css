@@ -3,6 +3,40 @@ body{
   margin: 0;
   padding: 0;
 }
+.nav-bar{
+  background-color: rgb(15, 124, 226);
+  
+}
+.nav-bar ul{
+  list-style: none;
+  padding: 20px;
+  margin-left: 8%;
+  margin-top: 0;
+  
+  
+}
+.nav-bar li{
+  display: inline;
+  font-weight: 700;
+  padding-left: 10px;
+  
+  
+  
+}
+.nav-bar li a{
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.nav-bar li a:hover{
+  background-color: rgb(240, 112, 8);
+  color: black
+  ;
+}
+
+
+ 
 body p{
   padding-bottom: 20px;
 }
@@ -79,7 +113,8 @@ body p{
 }
 footer{
   text-align: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0,0.8);
+  
   color: white;
   padding: 40px;
 }
